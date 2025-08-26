@@ -1,0 +1,6 @@
+source "https://rubygems.org"
+
+gem "github-pages", group: :jekyll_plugins
+
+# Optional: theme (GitHub Pages defaults to minima if you don’t pick one)
+gem "minima", "~> 2.5"
