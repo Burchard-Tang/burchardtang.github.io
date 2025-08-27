@@ -4,6 +4,9 @@ title: Projects
 permalink: /projects/
 ---
 
-dum dum dum
-
-<img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FTabby_cat&psig=AOvVaw0_ITUhVagzEKds10EXDTBk&ust=1756304635700000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIitn-LWqI8DFQAAAAAdAAAAABAE">
+<div class="project-card">
+    <p class="project-title">Octave</p>
+    <p class="project-description">a schrodinger graph</p>
+    <img class="project-img" src="/burchardtang.github.io/images/Orbital322.png" alt="An image from the octave graphing of the d2 orbital">
+    <img class="project-img" src="/burchardtang.github.io/images/Orbital320.png" alt="The graphing of a d0 orbital">
+</div>
