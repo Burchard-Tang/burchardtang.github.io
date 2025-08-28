@@ -7,6 +7,11 @@ body
     color: rgb(51, 51, 51);
 }
 
+hr.solid 
+{
+  border-top: 3px solid #bbb;
+}
+
 a { color: rgb(0, 180, 200); text-decoration: none; }
 a:visited { color: rgb(88, 129, 87); }
 a:hover { color: rgb(0, 129, 143); text-decoration: underline; }
@@ -55,34 +60,68 @@ Visited Link (subtle variation): Sage Green → rgb(88, 129, 87)
 */
 
 /*Projects*/
-.project-card 
-{ 
-    background-color: rgb(144, 190, 150); 
-    border: 1px solid rgb(34, 102, 68); 
-    border-radius: 8px; 
-    padding: 15px; 
-    margin-bottom: 20px; 
-    color: rgb(255, 255, 255);
+.project-card {
+    background: linear-gradient(145deg, rgb(144, 190, 150), rgb(119, 170, 125));
+    border: none;
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 24px;
+    color: #fff;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
-.project-title 
-{ 
-    font-size: 24px; 
-    margin-bottom: 10px; 
-    color: rgb(255, 255, 255);
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
 }
-.project-description 
-{ 
-    font-size: 16px; 
-    margin-bottom: 10px; 
-    color: rgb(255, 255, 255);
+
+.project-title {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin-bottom: 4px;
+    color: #fff;
 }
-.project-img 
-{ 
-    max-width: 100%; 
-    height: auto; 
-    border-radius: 5px; 
-    margin-bottom: 10px; 
-}   
+
+.project-date {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: rgb(220, 235, 220);
+    margin-bottom: 12px;
+}
+
+hr.solid {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    margin: 12px 0;
+}
+
+.project-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    color: #f8fdf9;
+}
+
+.project-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+    margin: 12px 0 6px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease;
+}
+
+.project-img:hover {
+    transform: scale(1.02);
+}
+
+.project-img-caption {
+    font-size: 0.8rem;
+    color: rgb(220, 235, 220);
+    text-align: center;
+    margin-bottom: 12px;
+}
 
 /*CV*/
 
