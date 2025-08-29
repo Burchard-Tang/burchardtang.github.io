@@ -15,3 +15,31 @@ Created a 3D visualization of the time-independent Schrödinger equation solutio
     <img class="project-img" src="/burchardtang.github.io/images/Orbital320.png" alt="The graphing of a d0 orbital">
     <p class="project-img-caption">Visualization of the <em>d₀</em> orbital distribution.</p>
 </div>
+
+<div class="project-card">
+    <p class="project-title">Type-Casting</p>
+    <p class="project-date">May - June 2025</p>
+    <hr class="solid">
+    <p class="project-description">
+        <em>Type-Casting</em> is a fantasy-themed bullet hell, top-down survival game designed to challenge the player’s multitasking and precision. 
+        Instead of simple controls, players must type spell commands to cast attacks and survive against waves of enemies. 
+        The game blends fast-paced action with thoughtful typing mechanics, creating a unique challenge in both skill and focus.
+    </p>
+    <p class="project-description">
+        Built in C# with MonoGame, the project demonstrates strong use of object-oriented programming principles including inheritance and polymorphism. 
+        Data structures such as linked lists, sorting and searching algorithms, and recursion were implemented to manage enemy pathing, spellcasting systems, and game state efficiently. 
+        This project showcases my ability to design both engaging gameplay and robust software architecture.
+    </p>
+    <img class="project-img" src="/burchardtang.github.io/images/TypeCasting.png" alt="Gameplay screenshot of Type-Casting, a bullet hell survival game">
+    <p class="project-img-caption">Gameplay screenshot of <em>Type-Casting</em>, featuring typed spells and enemy combat.</p>
+</div>
+
+<div class="project-card">
+    <p class="project-title">TED Talk–Style Assembly Organizer & Speaker</p>
+    <p class="project-date">January 2024</p>
+    <hr class="solid">
+    <p class="project-description">
+        Designed and coordinated a TED Talk–style assembly attended by 300+ junior students. The event featured senior students presenting on motivation and teachers sharing their professional journeys. I contributed both as an organizer and as a speaker, ensuring smooth logistics, clear communication with participants, and impactful delivery to the audience. 
+        This engagement strengthened my skills in public speaking, event planning, and stakeholder coordination while demonstrating the ability to lead initiatives that inspire and engage a large audience.
+    </p>
+</div>
