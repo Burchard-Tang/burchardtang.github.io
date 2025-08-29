@@ -1,14 +1,12 @@
 /* Custom CSS for personal website */
 /*Jekyll classes*/
 
-body 
-{ 
+body { 
     background-color: rgb(255, 255, 255);
     color: rgb(51, 51, 51);
 }
 
-hr.solid 
-{
+hr.solid {
   border-top: 3px solid #bbb;
 }
 
@@ -22,11 +20,24 @@ a:hover { color: rgb(0, 129, 143); text-decoration: underline; }
     min-height: 55.95px; position: relative; 
 }
 
+.page-title {
+    font-size: 2.8rem;
+    font-weight: 300;
+    color: rgb(34, 102, 68);
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(34, 102, 68, 0.10);
+    transition: color 0.2s;
+    font-family: 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+    margin: 32px 0 24px 0;
+    padding: 0 12px;
+    line-height: 1.2;
+    text-align: center;
+}
+
 .site-title, .site-title:visited { color: rgb(255, 255, 255); }
 .site-nav .page-link { color: rgb(255, 255, 255); }
 
-.site-footer 
-{ 
+.site-footer { 
     border-top: 1px solid rgb(46, 204, 113); padding: 30px 0; 
     background-color: rgba(0, 42, 20, 0.802);
     color: rgb(255, 255, 255);
@@ -38,26 +49,7 @@ a:hover { color: rgb(0, 129, 143); text-decoration: underline; }
 
 /*My classes*/
 
-
-/*
-Deep Green (Primary Brand) → rgb(34, 102, 68)
-Fresh Green (Accent) → rgb(46, 204, 113)
-Muted Sage (Background/Secondary) → rgb(144, 190, 150)
-
-Pure White (Main Background) → rgb(255, 255, 255)
-Soft Grey (Text/Secondary Background) → rgb(245, 245, 245)
-Charcoal (Text Contrast) → rgb(51, 51, 51)
-
-Fresh Cyan (Accent) → rgb(0, 180, 200)
-Soft Aqua (Background Highlight) → rgb(210, 245, 245)
-
-Option 1 (on White Background): Deep Green → rgb(34, 102, 68)
-Option 2 (on Green Background): Pure White → rgb(255, 255, 255)
-
-Default Link (standout but not too harsh): Fresh Green → rgb(46, 204, 113)
-Hover/Active Link (emphasized): Deep Green → rgb(34, 102, 68)
-Visited Link (subtle variation): Sage Green → rgb(88, 129, 87)
-*/
+/*Home*/
 
 /*Projects*/
 .project-card {
@@ -123,8 +115,51 @@ hr.solid {
     margin-bottom: 12px;
 }
 
-/*CV*/
+/*Background page*/
+.bgpage {
+    background: #fff;
+    color: #222;
+    max-width: 800px;
+    margin: 40px auto 32px auto;
+    padding: 48px 40px;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.12), 0 1.5px 0 #eee inset;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.92rem; /* ~11pt on most screens */
+    line-height: 1.3;
+}
 
+.bgpage-title {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 8px;
+    color: #1a3d2f;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.bgpage p {
+    margin-bottom: 1;
+}
+
+.bgpage h1, 
+.bgpage h2, 
+.bgpage h3 {
+    color: #1a3d2f;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-top: 1.5em;
+    margin-bottom: 0.2em;
+}
+
+.bgpage ul, 
+.bgpage ol {
+    margin-left: 1.5em;
+}
+
+.bgpage hr {
+    border-top: 1px solid #1a3d2f;
+    margin: 2px;
+}
 
 /*About Me*/
 

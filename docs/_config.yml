@@ -27,7 +27,7 @@ linkedin_username: Burchard-Tang
 github_username:  Burchard-Tang
 
 header_pages:
-  - cv.markdown
+  - background.markdown
   - projects.markdown
   - about.markdown
 
