@@ -48,8 +48,56 @@ a:hover { color: rgb(0, 129, 143); text-decoration: underline; }
 .svg-icon { fill: rgb(189, 226, 208); }
 
 /*My classes*/
+.see-projects-btn, .see-projects-btn:visited {
+    display: inline-block;
+    color: #ffffff;
+    background: linear-gradient(135deg, #22804a, #4fc08d);
+    font-size: 1.15rem;
+    font-weight: 600;
+    padding: 0.75em 2em;
+    border: none;
+    border-radius: 2em;
+    box-shadow: 0 4px 16px rgba(34, 102, 68, 0.10);
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+    margin: 2em auto 0 auto;
+    cursor: pointer;
+}
+
+.see-projects-btn:hover,
+.see-projects-btn:focus {
+    background: linear-gradient(135deg, #1a5d37, #38a169);
+    box-shadow: 0 8px 24px rgba(34, 102, 68, 0.18);
+    transform: translateY(-2px) scale(1.03);
+}
+.button-center {
+    display: flex;
+    justify-content: center;
+}
 
 /*Home*/
+
+.home-header {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 0.5em;
+    color: #1a3d2f;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: 700;
+}
+
+.home-intro {
+    background: linear-gradient(135deg, rgb(210, 245, 245), rgb(240, 255, 255));
+    border-radius: 20px;
+    padding: 32px;
+    margin-bottom: 32px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+    color: #333;
+    line-height: 1.7;
+    font-size: 1.05rem;
+}
 
 /*Projects*/
 .project-card {
@@ -119,9 +167,9 @@ hr.solid {
 .bgpage {
     background: #fff;
     color: #222;
-    max-width: 800px;
-    margin: 40px auto 32px auto;
-    padding: 48px 40px;
+    max-width: 50em;
+    margin: 2.5em auto 2em auto;
+    padding: 3em 2.5em;
     box-shadow: 0 4px 32px rgba(0,0,0,0.12), 0 1.5px 0 #eee inset;
     font-family: 'Times New Roman', Times, serif;
     font-size: 0.92rem; /* ~11pt on most screens */
@@ -131,19 +179,17 @@ hr.solid {
 .bgpage-title {
     text-align: center;
     font-size: 2.4rem;
-    margin-bottom: 8px;
+    margin-bottom: 0.5em;
     color: #1a3d2f;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-weight: 700;
 }
 
 .bgpage p {
-    margin-bottom: 1;
+    margin-bottom: 1em;
 }
 
-.bgpage h1, 
-.bgpage h2, 
-.bgpage h3 {
+.bgpage h1, .bgpage h2, .bgpage h3 {
     color: #1a3d2f;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-weight: 700;
@@ -151,14 +197,95 @@ hr.solid {
     margin-bottom: 0.2em;
 }
 
-.bgpage ul, 
-.bgpage ol {
-    margin-left: 1.5em;
+.bgpage ul, .bgpage ol {
+    margin-top: 0.1em;
+    margin-bottom: 1em;
+    margin-left: 2em;
 }
 
 .bgpage hr {
     border-top: 1px solid #1a3d2f;
-    margin: 2px;
+    margin: 0.2em 0;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75em;
+    margin-top: 1em;
+}
+
+.skill-list p {
+    margin: 0.25em 0;
+    background: #e0f7f7;
+    padding: 0.4em 0.8em;
+    border-radius: 0.5em;
+}
+
+.time-loc-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 0.1em;
+}
+
+.experience-entry {
+    padding: 0 1em;
+    margin-bottom: -1em;
+}
+
+.experience-entry .role {
+    margin: 0;
+    color: #1a3d2f;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.experience-entry .company {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 0.4em;
+}  
+
+.experience-entry-row p {
+    font-size: 0.9rem;
+    color: #777;
+}
+
+.education-entry {
+    padding: 0 1em;
+    margin-bottom: 1em;
+}
+
+.education-entry .degree {
+    margin: 0;
+    color: #1a3d2f;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: 600;
+}   
+
+.education-entry .institution {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 0.4em;
+}  
+
+.award-entry {
+    padding: 0 1em;
+    margin-bottom: 1em;
+}
+
+.award-entry .award-title {
+    margin: 0;
+    color: #1a3d2f;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.award-entry .award-description {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 0.4em;
 }
 
 /*About Me*/
