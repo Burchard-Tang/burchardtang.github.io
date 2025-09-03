@@ -40,6 +40,6 @@ Created a 3D visualization of the time-independent Schrödinger equation solutio
     <hr class="solid">
     <p class="project-description">
         Designed and coordinated a TED Talk–style assembly attended by 300+ junior students. The event featured senior students presenting on motivation and teachers sharing their professional journeys. I contributed both as an organizer and as a speaker, ensuring smooth logistics, clear communication with participants, and impactful delivery to the audience. 
-        This engagement strengthened my skills in public speaking, event planning, and stakeholder coordination while demonstrating the ability to lead initiatives that inspire and engage a large audience.
+        This engagement strengthened my skills in public speaking and event planning while demonstrating the ability to lead initiatives that inspire and engage a large audience.
     </p>
 </div>

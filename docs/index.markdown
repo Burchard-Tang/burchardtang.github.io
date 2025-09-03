@@ -7,7 +7,7 @@ layout: home
 
 <h1 class="home-header">Burchard Tang | Environmental Engineering Student<h1>
 
-<p class="home-intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
+<p class="home-intro">Motivated and adaptable student with a strong academic record and recognition among the top of the graduating class. Experienced in mentorship, leadership, and problem-solving, with a focus on continuous growth and delivering meaningful results in academic and professional settings.<p>
 
 <div class="button-center">
   <a class="see-projects-btn" href="/burchardtang.github.io/projects/">See Projects</a>

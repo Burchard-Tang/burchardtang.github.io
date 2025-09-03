@@ -226,12 +226,17 @@ hr.solid {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 0.1em;
+    margin-bottom: 0.2em;
+}
+
+.time-loc-row p {
+    font-size: 0.8rem;
+    color: #777;
 }
 
 .experience-entry {
     padding: 0 1em;
-    margin-bottom: -1em;
+    margin-bottom: -0.5em;
 }
 
 .experience-entry .role {
@@ -246,11 +251,6 @@ hr.solid {
     color: #555;
     margin-bottom: 0.4em;
 }  
-
-.experience-entry-row p {
-    font-size: 0.9rem;
-    color: #777;
-}
 
 .education-entry {
     padding: 0 1em;
