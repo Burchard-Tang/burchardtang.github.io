@@ -6,9 +6,10 @@ permalink: /background/
 
 <div class="bgpage-title">Burchard Tang</div>
 
+---
+
 Motivated and adaptable student recognized among the top of the graduating class with a record of academic excellence. Experienced in peer mentorship and leadership, with practical skills in problem-solving and technical learning. Brings strong attention to detail and the ability to deliver high-quality results in fast-paced environments. Dedicated to continuous growth and contributing effectively to team success.
 
----
 # Skills
 ---
 <div class="skill-list">
@@ -17,8 +18,26 @@ Motivated and adaptable student recognized among the top of the graduating class
     <p>Skill2</p>
     <p>Skill3</p>
 -->
-    <p>Skill</p>
-    <p>Skill</p>
+    <p class="softskill">Leadership</p>
+    <p class="softskill">Mentorship</p>
+    <p class="softskill">Problem-Solving</p>
+    <p class="softskill">Adaptability</p>
+    <p class="softskill">Self-Motivation</p>
+    <p class="softskill">Time Management</p>
+    <p class="softskill">Accountability</p>
+    <p class="softskill">Technical Learning</p>
+    <p class="softskill">Attention to Detail</p>
+    <p class="softskill">Communication</p>
+    <p class="softskill">Research</p>
+    <p class="softskill">Event Organization</p>
+    <p class="hardskill">C#</p>
+    <p class="hardskill">Java</p>
+    <p class="hardskill">HTML</p>
+    <p class="hardskill">CSS</p>
+    <p class="hardskill">MonoGame</p>
+    <p class="hardskill">Jekyll</p>
+    <p class="hardskill">Excel</p>
+    <p class="hardskill">Google Sheets</p>
 </div>
 
 # Experience
@@ -28,9 +47,9 @@ Motivated and adaptable student recognized among the top of the graduating class
     <p class="company">Vaughan Public Libraries</p>
     <div class="time-loc-row"><p>07/2023-02/2024</p><p>Vaughan, ON</p></div>
 </div>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit
+- Supported community members in developing digital literacy by teaching device features and internet use. 
+- Provided patient and clear guidance to ensure a positive learning experience. 
+- Resolved technical issues and researched tailored solutions to meet individual needs.
 
 <!--
 <div class="experience-entry">
@@ -46,8 +65,7 @@ Motivated and adaptable student recognized among the top of the graduating class
 # Education
 ---
 <div class="education-entry">
-    <p class="degree">OSSD</p>
-    <p class="institution">Stephen Lewis Secondary School</p>
+    <p class="education-title">OSSD | Stephen Lewis Secondary School</p>
     <div class="time-loc-row"><p>09/2021-06/2025</p><p>Thornhill, ON</p></div>
 </div>
 
