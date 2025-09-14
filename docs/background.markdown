@@ -34,10 +34,11 @@ Motivated and adaptable student recognized among the top of the graduating class
     <p class="hardskill">Java</p>
     <p class="hardskill">HTML</p>
     <p class="hardskill">CSS</p>
+    <p class="hardskill">Octave</p>
+    <p class="hardskill">QGIS</p>
     <p class="hardskill">MonoGame</p>
     <p class="hardskill">Jekyll</p>
     <p class="hardskill">Excel</p>
-    <p class="hardskill">Google Sheets</p>
 </div>
 
 # Experience
@@ -47,9 +48,9 @@ Motivated and adaptable student recognized among the top of the graduating class
     <p class="company">Vaughan Public Libraries</p>
     <div class="time-loc-row"><p>07/2023-02/2024</p><p>Vaughan, ON</p></div>
 </div>
-- Supported community members in developing digital literacy by teaching device features and internet use. 
-- Provided patient and clear guidance to ensure a positive learning experience. 
-- Resolved technical issues and researched tailored solutions to meet individual needs.
+- Taught tutees how to effectively use smartphones and Microsoft Office tools, increasing their digital literacy and strengthening interpersonal communication skills.
+- Enhanced mentoring skills by delivering one-on-one tutoring sessions to community members of diverse age and technological experience.
+
 
 <!--
 <div class="experience-entry">
