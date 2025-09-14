@@ -9,7 +9,7 @@ permalink: /projects/
     <p class="project-date">August 2025</p>
     <hr class="solid">
     <p class="project-description">
-Created a 3D visualization of the time-independent Schrödinger equation solutions for hydrogen-like orbitals using GNU Octave. By plotting probability clouds with scatter3, the project demonstrates how different quantum numbers shape electron orbitals. To build this, I studied calculus and differential equations, gaining a deeper understanding of boundary conditions and how they impact solutions to differential equations. This project enhanced my skills in mathematical modeling, numerical methods, and scientific visualization, while also strengthening my intuition for the physics behind quantum orbitals.</p>
+A 3D visualization of the time-independent Schrödinger equation solutions for electron orbitals using GNU Octave. By plotting probability clouds with scatter3, the project demonstrates how different quantum numbers shape electron orbitals. To build this, I studied calculus and differential equations, gaining a deeper understanding of boundary conditions and how they impact solutions to differential equations. This project enhanced my skills in mathematical modeling, numerical methods, and scientific visualization, while also strengthening my intuition for the physics behind quantum orbitals.</p>
     <img class="project-img" src="/burchardtang.github.io/images/Orbital322.png" alt="An image from the octave graphing of the d1 orbital">
     <p class="project-img-caption">Visualization of the <em>d₁</em> orbital as a 3D scatter plot.</p>
     <img class="project-img" src="/burchardtang.github.io/images/Orbital320.png" alt="The graphing of a d0 orbital">
@@ -30,7 +30,8 @@ Created a 3D visualization of the time-independent Schrödinger equation solutio
         Data structures such as linked lists, sorting and searching algorithms, and recursion were implemented to manage enemy pathing, spellcasting systems, and game state efficiently. 
     </p>
     <img class="project-img" src="/burchardtang.github.io/images/TypeCasting.png" alt="Gameplay screenshot of Type-Casting, a bullet hell survival game">
-    <p class="project-img-caption">Gameplay screenshot of <em>Type-Casting</em>, featuring typed spells and enemy combat.</p>
+    <img class="project-img" src="/burchardtang.github.io/images/TypeCastingClip1.gif" alt="Gameplay screenshot of Type-Casting, a bullet hell survival game">
+    <p class="project-img-caption">Gameplay of <em>Type-Casting</em>, featuring typed spells and enemy combat.</p>
 </div>
 
 <div class="project-card">
@@ -38,7 +39,7 @@ Created a 3D visualization of the time-independent Schrödinger equation solutio
     <p class="project-date">January 2024</p>
     <hr class="solid">
     <p class="project-description">
-        Designed and coordinated a TED Talk–style assembly attended by 300+ junior students. The event featured senior students presenting on motivation and teachers sharing their professional journeys. I contributed both as an organizer and as a speaker, ensuring smooth logistics, clear communication with participants, and impactful delivery to the audience. 
+        Designed and coordinated a TED Talk–style assembly attended by 200+ junior students. The event featured senior students presenting on motivation and teachers sharing their professional journeys. I contributed both as an organizer and as a speaker, ensuring smooth logistics, clear communication with participants, and impactful delivery to the audience. 
         This engagement strengthened my skills in public speaking and event planning while demonstrating the ability to lead initiatives that inspire and engage a large audience.
     </p>
 </div>
