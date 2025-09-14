@@ -191,6 +191,7 @@ hr.solid {
 
 .bgpage h1, .bgpage h2, .bgpage h3 {
     color: #1a3d2f;
+    font-size: 1.2rem;
     font-family: 'Georgia', 'Times New Roman', Times, serif;
     font-weight: 700;
     margin-top: 1em;
