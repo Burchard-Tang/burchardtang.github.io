@@ -31,8 +31,7 @@ header_pages:
   - projects.markdown
   - about.markdown
 
-google_analytics: 
-id: G-280ETSCP8W
+google_analytics: G-280ETSCP8W
 
 # Build settings
 theme: minima
