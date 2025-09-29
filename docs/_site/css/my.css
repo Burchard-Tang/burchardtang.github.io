@@ -49,6 +49,10 @@ a:hover { color: rgb(0, 129, 143); text-decoration: underline; }
 
 /*My classes*/
 
+.target-anchor {
+  scroll-margin-top: 30px;
+}
+
 .slideshow-container {
     position: relative;
     max-width: 100%;
@@ -168,6 +172,45 @@ a:hover { color: rgb(0, 129, 143); text-decoration: underline; }
 }
 
 /*Projects*/
+.proj-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20%;
+    overflow-y: scroll;
+    height: 100%;
+    padding: 20px;
+    background-color: #00431b;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    margin-left: 0px;
+    font-size: 0.95rem;
+    color: #ffffff;
+}
+
+.proj-sidebar h1 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    color: #ffffff;
+}
+
+.proj-sidebar a, .proj-sidebar a:visited {
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 0.2rem;
+    border-top: 1px solid white;
+    padding: 1px;
+}
+
+.proj-sidebar a:hover {
+    color: #e0f7f7;
+}
+
+.proj-sidebar ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
 .project-card {
     background: linear-gradient(145deg, rgb(144, 190, 150), rgb(119, 170, 125));
     border: none;

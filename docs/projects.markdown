@@ -3,6 +3,21 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
+<div class="proj-sidebar">
+<h1>2025</h1>
+<ul>
+<li><a href="#MOD04">Modelling CANDU Reactor Parts (SolidWorks) | In Progress</a></li>
+<li><a href="#GRE03">Green Infrastructure Map of Toronto (QGIS)</a></li>
+<li><a href="#QUA02">Quantum Orbital Visualization (Octave)</a></li>
+<li><a href="#TYP01">Game: Type-Casting (C#)</a></li>
+</ul>
+<h1>2024</h1>
+<ul>
+<li><a href="#TED00">TED Talk–Style Assembly Organizer & Speaker</a></li>
+</ul>
+</div>
+
+<div class="target-anchor" id="MOD04"></div>
 <div class="project-card">
     <p class="project-title">Modelling CANDU Reactor Parts (SolidWorks) | In Progress</p>
     <p class="project-date">September 2025 - Present</p>
@@ -37,6 +52,7 @@ permalink: /projects/
     </div>
 </div>
 
+<div class="target-anchor" id="GRE03"></div>
 <div class="project-card">
     <p class="project-title">Green Infrastructure Map of Toronto (QGIS)</p>
     <p class="project-date">September 2025</p>
@@ -47,6 +63,7 @@ A map combining four green infrastructure datasets in the Toronto region from To
     <p class="project-img-caption">Map of Toronto labeled with green infrastructure made using QGIS.</p>
 </div>
 
+<div class="target-anchor" id="QUA02"></div>
 <div class="project-card">
     <p class="project-title">Quantum Orbital Visualization (Octave)</p>
     <p class="project-date">August 2025</p>
@@ -59,6 +76,7 @@ A 3D visualization of the time-independent Schrödinger equation solutions for e
     <p class="project-img-caption">Visualization of the <em>d₀</em> orbital distribution.</p>
 </div>
 
+<div class="target-anchor" id="TYP01"></div>
 <div class="project-card">
     <p class="project-title">Game: Type-Casting (C#)</p>
     <p class="project-date">May - June 2025</p>
@@ -75,7 +93,7 @@ A 3D visualization of the time-independent Schrödinger equation solutions for e
     <p class="project-img-caption">Gameplay of <em>Type-Casting</em>, featuring typed spells and enemy combat.</p>
 </div>
 
-<div class="project-card">
+<div class="project-card" id="TED00">
     <p class="project-title">TED Talk–Style Assembly Organizer & Speaker</p>
     <p class="project-date">January 2024</p>
     <hr class="solid">
