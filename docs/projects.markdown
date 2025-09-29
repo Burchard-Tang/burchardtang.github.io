@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 ---
-<div class="proj-sidebar">
+<div class="proj-sidebar" id="sideBar">
 <h1>2025</h1>
 <ul>
 <li><a href="#MOD04">Modelling CANDU Reactor Parts (SolidWorks) | In Progress</a></li>
@@ -16,6 +16,8 @@ permalink: /projects/
 <li><a href="#TED00">TED Talk–Style Assembly Organizer & Speaker</a></li>
 </ul>
 </div>
+
+<button class="proj-sidebar-btn" id="sideBarBtn" type="button" onclick="toggleSideBar()">></button>
 
 <div class="target-anchor" id="MOD04"></div>
 <div class="project-card">
@@ -106,4 +108,22 @@ A 3D visualization of the time-independent Schrödinger equation solutions for e
 
 <script>
     setSlide(0,0);
-</script>
+
+    let open = true;
+    let bar = document.getElementById("sideBar");
+    let btn = document.getElementById("sideBarBtn");
+
+    function toggleSideBar(){
+        open = !open;
+        if (open){
+            bar.classList.remove("closed");
+            btn.style.left = "20%";
+        }
+        else{
+            bar.classList.add("closed");
+            btn.style.left = "20px";
+        }
+    }
+
+    toggleSideBar();
+</script>  

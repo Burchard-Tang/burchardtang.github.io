@@ -177,7 +177,6 @@ a:hover { color: rgb(0, 129, 143); text-decoration: underline; }
     top: 0;
     left: 0;
     width: 20%;
-    overflow-y: scroll;
     height: 100%;
     padding: 20px;
     background-color: #00431b;
@@ -185,6 +184,13 @@ a:hover { color: rgb(0, 129, 143); text-decoration: underline; }
     margin-left: 0px;
     font-size: 0.95rem;
     color: #ffffff;
+    transition: 0.5s;
+}
+
+.proj-sidebar.closed {
+    padding: 20px 0 !important;
+    left: -20% !important;
+    overflow: hidden;
 }
 
 .proj-sidebar h1 {
@@ -209,6 +215,20 @@ a:hover { color: rgb(0, 129, 143); text-decoration: underline; }
 .proj-sidebar ul {
     list-style-type: none;
     padding-left: 0;
+}
+
+.proj-sidebar-btn {
+    position: fixed;
+    top: 20px;
+    left: 20%; 
+    background-color: #00431b;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
 }
 
 .project-card {
