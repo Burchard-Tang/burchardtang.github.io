@@ -30,15 +30,15 @@ Motivated and adaptable student recognized among the top of the graduating class
     <p class="softskill">Communication</p>
     <p class="softskill">Research</p>
     <p class="softskill">Event Organization</p>
+    <p class="hardskill">Excel</p>
     <p class="hardskill">C#</p>
     <p class="hardskill">Java</p>
     <p class="hardskill">HTML</p>
     <p class="hardskill">CSS</p>
     <p class="hardskill">Octave</p>
-    <p class="hardskill">QGIS</p>
     <p class="hardskill">MonoGame</p>
-    <p class="hardskill">Jekyll</p>
-    <p class="hardskill">Excel</p>
+    <p class="hardskill">QGIS</p>
+    <p class="hardskill">Solidworks</p>
 </div>
 
 # Experience
