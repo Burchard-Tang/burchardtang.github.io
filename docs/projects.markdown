@@ -117,7 +117,7 @@ A 3D visualization of the time-independent Schrödinger equation solutions for e
         open = !open;
         if (open){
             bar.classList.remove("closed");
-            btn.style.left = "20%";
+            btn.style.left = "320px";
         }
         else{
             bar.classList.add("closed");
