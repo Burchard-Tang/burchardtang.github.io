@@ -19,12 +19,15 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Burchard Tang
-description: >- # this means to ignore newlines until "baseurl:"
-   Student engineer with a passion for problem-solving, research, and creating sustainable solutions.
+description: Student engineer with a passion for problem-solving, research, and creating sustainable solutions.
 baseurl: "/burchardtang.github.io" # the subpath of your site, e.g. /blog
 url: "https://burchard-tang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: Burchard-Tang
 github_username:  Burchard-Tang
+
+author:
+  name: "Burchard Tang"
+  email: "your.email@example.com"
 
 header_pages:
   - background.markdown
@@ -37,6 +40,8 @@ google_analytics: G-280ETSCP8W
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
