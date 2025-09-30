@@ -20,7 +20,7 @@
 
 title: Burchard Tang
 description: Student engineer with a passion for problem-solving, research, and creating sustainable solutions.
-baseurl: "/burchardtang.github.io" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://burchard-tang.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 linkedin_username: Burchard-Tang
 github_username:  Burchard-Tang
