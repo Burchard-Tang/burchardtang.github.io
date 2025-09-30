@@ -6,7 +6,7 @@ layout: home
 ---
 
 <div class="home-profile-section">
-  <img class="home-profile-pic" src="/images/Profile.jpg" alt="Profile photo">
+  <img class="home-profile-pic" src="/burchardtang.github.io/images/Profile.jpg" alt="Profile photo">
   <div style="margin: 32px;">
     <h1 class="home-header">Burchard Tang</h1>
     <h1 class="home-subheader">Environmental Engineering Student</h1>
