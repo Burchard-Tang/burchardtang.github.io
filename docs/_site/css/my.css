@@ -134,12 +134,12 @@ a:hover { color: rgb(0, 129, 143); text-decoration: underline; }
     gap: 1.5em;
   }
   .home-profile-pic {
-    width: 70vw;
-    max-width: 260px;
-    height: auto;
+    width: 70vw !important;
+    max-width: 260px !important;
+    height: auto !important;
     float: none;
-    margin: 0 auto 1em auto;
-    border-radius: 50%;
+    margin: 0 auto 1em auto !important;
+    border-radius: 50% !important;
   }
   .home-profile-section > div {
     margin: 0;
@@ -201,7 +201,7 @@ a:hover { color: rgb(0, 129, 143); text-decoration: underline; }
     position: fixed;
     top: 0;
     left: 0;
-    width: 320px;
+    width: 20%;
     height: 100%;
     padding: 20px;
     background-color: #00431b;
@@ -212,11 +212,25 @@ a:hover { color: rgb(0, 129, 143); text-decoration: underline; }
     transition: 0.5s;
     z-index: 1000;
 }
-
 .proj-sidebar.closed {
     padding: 20px 0 !important;
-    left: -320px !important;
+    left: -20% !important;
     overflow: hidden;
+}
+
+@media screen and (max-width: 600px) {
+  .proj-sidebar {
+    width: 60% !important;
+  }
+  .proj-sidebar.closed {
+    left: -60% !important;
+  }
+  .proj-sidebar-btn {
+    left: 60% !important;
+  }
+  .proj-sidebar-btn.closed {
+    left: 0 !important;
+  }
 }
 
 .proj-sidebar h1 {
@@ -246,7 +260,7 @@ a:hover { color: rgb(0, 129, 143); text-decoration: underline; }
 .proj-sidebar-btn {
     position: fixed;
     top: 20px;
-    left: 320px; 
+    left: 20%; 
     background-color: #00431b;
     color: #ffffff;
     border: none;
@@ -256,6 +270,9 @@ a:hover { color: rgb(0, 129, 143); text-decoration: underline; }
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     transition: 0.5s;
     z-index: 1001;
+}
+.proj-sidebar-btn.closed {
+    left: 0 !important;
 }
 
 .project-card {
