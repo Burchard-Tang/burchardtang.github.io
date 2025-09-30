@@ -1,1 +1,1 @@
-Sitemap: https://burchard-tang.github.io/burchardtang.github.io/sitemap.xml
+Sitemap: http://localhost:4000/burchardtang.github.io/sitemap.xml
