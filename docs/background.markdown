@@ -33,6 +33,7 @@ Motivated and adaptable student recognized among the top of the graduating class
     <p class="hardskill">Excel</p>
     <p class="hardskill">C#</p>
     <p class="hardskill">Java</p>
+    <p class="hardskill">Python</p>
     <p class="hardskill">HTML</p>
     <p class="hardskill">CSS</p>
     <p class="hardskill">Octave</p>
