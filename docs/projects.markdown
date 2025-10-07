@@ -15,6 +15,10 @@ permalink: /projects/
 <ul>
 <li><a href="#TED00">TED Talk–Style Assembly Organizer & Speaker</a></li>
 </ul>
+<h1>Extra</h1>
+<ul>
+<li><a href="#DES000">Favorite Desmos Library</a></li>
+</ul>
 </div>
 
 <button class="proj-sidebar-btn" id="sideBarBtn" type="button" onclick="toggleSideBar()">></button>
@@ -47,15 +51,13 @@ permalink: /projects/
             <img src="/burchardtang.github.io/images/Projects/CANDU/AnnulusBellow.png" alt="Annulus Bellow" onclick="shiftSlide(1,0)">
             <p class="project-img-caption">Model of an annulus bellow, moderating the pressure of the annulus gas. Measurements estimated from <a href="https://thorburnflex.com/pdf/Metallic%20Bellows-2014.pdf" target="_blank">Thorburn Flex | Serving The Nuclear Industry</a></p>
         </div>
-        <div class="full-slider-bar">
-        </div>
     </div>
     <div class="full-slider-bar">
         <a><span class="slider-bar0" style="width:18%;" onclick="setSlide(0,0)"></span></a>
         <a><span class="slider-bar0" style="width:18%;" onclick="setSlide(1,0)"></span></a>
         <a><span class="slider-bar0" style="width:18%;" onclick="setSlide(2,0)"></span></a>
-        <a><span class="slider-bar0" style="width:18%;" onclick="setSlide(2,0)"></span></a>
-        <a><span class="slider-bar0" style="width:18%;" onclick="setSlide(2,0)"></span></a>
+        <a><span class="slider-bar0" style="width:18%;" onclick="setSlide(3,0)"></span></a>
+        <a><span class="slider-bar0" style="width:18%;" onclick="setSlide(4,0)"></span></a>
     </div>
 </div>
 
@@ -111,8 +113,75 @@ A 3D visualization of the time-independent Schrödinger equation solutions for e
     </p>
 </div>
 
+<div class="project-card" id="DES000">
+    <p class="project-title">Favourite Desmos Selections</p>
+    <hr class="solid">
+    <p>Whenever I learn a mathematical or physics concept, it often helps me to graph it in Desmos so I can visualize it better and develop an understanding. Quite often, I would become fixated on a problem and spend time at length on Desmos, so much so I would consider it a hobby. This behaviour has left me with numerous graphs, my favorites of the set below. </p>
+    <div class = "slideshow-container">
+        <div class = "slide1">
+            <p class="project-subheader"><a href="https://www.desmos.com/calculator/tpzhddcu80">Vector Space | 2025</a></p>
+            <p>
+            A desmos that plots a grid of vectors to explore the development of systems with different functions of their change. Plotted currently is the vector space created by a pendulum.
+            </p>
+            <img class="project-img" src="/burchardtang.github.io/images/Projects/Desmos/VectorSpace.png" alt="Vector Space Desmos Plot" onclick="shiftSlide(1,1)">
+        </div>
+        <div class = "slide1">
+            <p class="project-subheader"><a href="https://www.desmos.com/calculator/tpzhddcu80">Should You Run in the Rain | 2025</a></p>
+            <p>
+            The question, 'Should you run in the rain?' came up in conversation which prompted this graph. This graph calculates the amount of rain a person (approximated as a rectangular prism) experiences by finding their cross-sectional area perpendicular to the rain's falling vector at different moving speeds. The area is multiplied by the flux of the rain and the distance divided by the speed. 
+            My findings were that running is more likely to be worse if you are moving with the horzontal direction of the rain. In this case, at walking speed the rain falls closely parallel to your standing compared to hiting your front when running. 
+            </p>
+            <img class="project-img" src="/burchardtang.github.io/images/Projects/Desmos/RunningInRain.png" alt="A 3D Desmos plot of a box experiencing rain" onclick="shiftSlide(1,1)">
+        </div>
+        <div class = "slide1">
+            <p class="project-subheader"><a href="https://www.desmos.com/calculator/i8wiubnz6w">Damped Harmonic Motion | 2025</a></p>
+            <p>
+            A desmos plot of a damped harminic oscillator, its position-time solution, homogeneous solution, and particullar solution. While reading about differential equations, this graph came about to visualize the similarities and differences between the homogeneous and particular solutions.
+            </p>
+            <img class="project-img" src="/burchardtang.github.io/images/Projects/Desmos/DampedHarmonic.png" alt="A Desmos plot of a simple harmonic oscillator" onclick="shiftSlide(1,1)">
+        </div>
+        <div class = "slide1">
+            <p class="project-subheader"><a href="https://www.desmos.com/calculator/yvvkidm9vk">Seperable Equations | 2025</a></p>
+            <p>
+            To solve a seperable equation, the integral of both sides can be taken with initial conditions. To explore why this works, this graph visualizes my interperetaion of finding matching areas from small changes in x related to the changes in y. 
+            </p>
+            <img class="project-img" src="/burchardtang.github.io/images/Projects/Desmos/SepEq.png" alt="A Desmos plot of seperable equations" onclick="shiftSlide(1,1)" onclick="shiftSlide(1,1)">
+        </div>
+        <div class = "slide1">
+            <p class="project-subheader"><a href="https://www.desmos.com/calculator/yvvkidm9vk">Special Relativity | 2024</a></p>
+            <p>
+            This graph shows a space-time graph, displaying time dilation and length contaction through the shifting of the axes.
+            </p>
+            <img class="project-img" src="/burchardtang.github.io/images/Projects/Desmos/SpecRel.png" alt="A space-time graph" onclick="shiftSlide(1,1)">
+        </div>
+        <div class = "slide1">
+            <p class="project-subheader">Other Graphs</p>
+            <ul class="desmos-list">
+                <li><a href="https://www.desmos.com/calculator/uaijvkihbv">Shear & Moment Graphs (2025)</a></li>
+                <li><a href="https://www.desmos.com/calculator/jt5kysqedc">Diffusion in a Pipe (2025)</a></li>
+                <li><a href="https://www.desmos.com/calculator/j1sruluy4z">Basel Problem (2025)</a></li>
+                <li><a href="https://www.desmos.com/calculator/v9fi4cxcnn">Hyperbola: Area and  Functions (2025)</a></li>
+                <li><a href="https://www.desmos.com/calculator/50d69d7459">Wave Superposition (2024)</a></li>
+                <li><a href="https://www.desmos.com/calculator/e2c9b5c936">2 Point Interference (2024)</a></li>
+                <li><a href="https://www.desmos.com/calculator/40363e8ff2">Elastic Collision (2023)</a></li>
+                <li><a href="https://www.desmos.com/calculator/b59702af21">Force Table (2023)</a></li>
+                <li><a href="https://www.desmos.com/calculator/c0c5e7cdf1">Position, Velocity, Acceleration Plotter (2023)</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="full-slider-bar">
+        <a><span class="slider-bar1" style="width:14%;" onclick="setSlide(0,1)"></span></a>
+        <a><span class="slider-bar1" style="width:14%;" onclick="setSlide(1,1)"></span></a>
+        <a><span class="slider-bar1" style="width:14%;" onclick="setSlide(2,1)"></span></a>
+        <a><span class="slider-bar1" style="width:14%;" onclick="setSlide(3,1)"></span></a>
+        <a><span class="slider-bar1" style="width:14%;" onclick="setSlide(4,1)"></span></a>
+        <a><span class="slider-bar1" style="width:14%;" onclick="setSlide(5,1)"></span></a>
+    </div>
+</div>
+
 <script>
     setSlide(0,0);
+    setSlide(0,1);
 
     let open = true;
     let bar = document.getElementById("sideBar");
