@@ -366,11 +366,11 @@ hr.solid {
     margin-top: 8px;
 }
 .desmos-list a {
-    color: #e0f7f7;
+    color: #e0f7f7 !important;
     text-decoration: underline;
 }
 .desmos-list a:visited {
-    color: #b3e0e0;
+    color: #b3e0e0 !important;
 }
 
 /*Background page*/
