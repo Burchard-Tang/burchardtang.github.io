@@ -63,6 +63,7 @@ a:hover { color: rgb(0, 129, 143); text-decoration: underline; }
     margin: auto;
     overflow: hidden;
     border-radius: 12px;
+    padding: 12px;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
@@ -291,6 +292,18 @@ a:hover { color: rgb(0, 129, 143); text-decoration: underline; }
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.2);
 }
 
+.project-subheader {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 4px;
+    color: #fff;
+}   
+
+.project-subheader a, .project-subheader a:visited {
+    color: #e0f7f7;
+    text-decoration: underline;
+}
+
 .project-title {
     font-size: 1.6rem;
     font-weight: 600;
@@ -344,6 +357,19 @@ hr.solid {
 }
 
 .project-img-caption a:visited {
+    color: #b3e0e0;
+}
+
+.desmos-list {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 8px;
+}
+.desmos-list a {
+    color: #e0f7f7;
+    text-decoration: underline;
+}
+.desmos-list a:visited {
     color: #b3e0e0;
 }
 
