@@ -230,7 +230,7 @@ a:hover { color: rgb(0, 129, 143); text-decoration: underline; }
     left: 60% !important;
   }
   .proj-sidebar-btn.closed {
-    left: 0 !important;
+    left: 5px !important;
   }
 }
 
@@ -273,7 +273,7 @@ a:hover { color: rgb(0, 129, 143); text-decoration: underline; }
     z-index: 1001;
 }
 .proj-sidebar-btn.closed {
-    left: 0 !important;
+    left: 20px !important;
 }
 
 .project-card {

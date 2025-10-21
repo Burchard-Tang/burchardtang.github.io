@@ -40,6 +40,7 @@ Motivated and adaptable student recognized among the top of the graduating class
     <p class="hardskill">MonoGame</p>
     <p class="hardskill">QGIS</p>
     <p class="hardskill">Solidworks</p>
+    <p class="hardskill">Autodesk Civil 3D</p>
 </div>
 
 # Experience

@@ -17,7 +17,7 @@ permalink: /projects/
 </ul>
 <h1>Extra</h1>
 <ul>
-<li><a href="#DES000">Favorite Desmos Library</a></li>
+<li><a href="#DES000">Favorite Desmos Selections</a></li>
 </ul>
 </div>
 
@@ -95,14 +95,15 @@ A 3D visualization of the time-independent Schrödinger equation solutions for e
     </p>
     <p class="project-description">
         Built in C# with MonoGame, the project demonstrates object-oriented programming principles, including inheritance and polymorphism to create different enemy and projectile types. 
-        Data structures such as linked lists, sorting, and searching algorithms were implemented to efficiently manage hundreds of enemies with pathing and projectiles. Recursion was used to generate new winding caves and forest maps in each playthrough for unique experiences.
+        Data structures such as linked lists, a quad-tree, sorting, and searching algorithms were implemented to efficiently manage hundreds of enemies with pathing and projectiles. Collision of projectiles with enemies and enemies with enemies were handled by building a quad-tree. Recursion was used to generate new winding caves and forest maps in each playthrough for unique experiences.
     </p>
     <img class="project-img" src="/burchardtang.github.io/images/Projects/TypeCasting.png" alt="Gameplay screenshot of Type-Casting, a bullet hell survival game">
     <img class="project-img" src="/burchardtang.github.io/images/Projects/TypeCastingClip1.gif" alt="Gameplay screenshot of Type-Casting, a bullet hell survival game">
     <p class="project-img-caption">Gameplay of <em>Type-Casting</em>, featuring typed spells and enemy combat.</p>
 </div>
 
-<div class="project-card" id="TED00">
+<div class="target-anchor" id="TED00"></div>
+<div class="project-card">
     <p class="project-title">TED Talk–Style Assembly Organizer & Speaker</p>
     <p class="project-date">January 2024</p>
     <hr class="solid">
@@ -110,10 +111,22 @@ A 3D visualization of the time-independent Schrödinger equation solutions for e
         Designed and coordinated a TED Talk–style assembly attended by 200+ junior students. The event featured senior students giving talks on topics such as passion in learning and dealing with mistakes. Teachers also gave talks about their professional journeys. I contributed both as an organizer and as a speaker, ensuring smooth logistics, clear communication with participants, and impactful delivery to the audience. 
         
         The purpose of this event was to strengthen public speaking ability in students and to create a supportive environment for juniors. From feedback forms, the audience particularly enjoyed hearing about their teachers' backgrounds and I personally felt I developed my ability to communicate with others.
-    </p>
+    </p>    .desmos-list a {
+        /* CSS properties here */
+        color: #22804a;
+        font-weight: 500;
+        text-decoration: underline;
+        transition: color 0.2s;
+    }
+    
+    .desmos-list a:hover {
+        color: #38a169;
+        text-decoration: none;
+    }
 </div>
 
-<div class="project-card" id="DES000">
+<div class="target-anchor" id="DES000"></div>
+<div class="project-card">
     <p class="project-title">Favourite Desmos Selections</p>
     <hr class="solid">
     <p>Whenever I learn a mathematical or physics concept, it often helps me to graph it in Desmos so I can visualize it better and develop an understanding. Quite often, I would become fixated on a problem and spend time at length on Desmos, so much so I would consider it a hobby. This behaviour has left me with numerous graphs, my favorites of the set below. </p>
