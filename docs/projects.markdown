@@ -108,9 +108,7 @@ A 3D visualization of the time-independent Schrödinger equation solutions for e
     <p class="project-date">January 2024</p>
     <hr class="solid">
     <p class="project-description">
-        Designed and coordinated a TED Talk–style assembly attended by 200+ junior students. The event featured senior students giving talks on topics such as passion in learning and dealing with mistakes. Teachers also gave talks about their professional journeys. I contributed both as an organizer and as a speaker, ensuring smooth logistics, clear communication with participants, and impactful delivery to the audience. 
-        
-        The purpose of this event was to strengthen public speaking ability in students and to create a supportive environment for juniors. From feedback forms, the audience particularly enjoyed hearing about their teachers' backgrounds and I personally felt I developed my ability to communicate with others.
+        Designed and coordinated a TED Talk–style assembly attended by 200+ junior students. The event featured senior students giving talks on topics such as passion in learning and dealing with mistakes. Teachers also gave talks about their professional journeys. I contributed both as an organizer and as a speaker, ensuring smooth logistics, clear communication with participants, and impactful delivery to the audience. The purpose of this event was to strengthen public speaking ability in students and to create a supportive environment for juniors. From feedback forms, the audience particularly enjoyed hearing about their teachers' backgrounds and I personally felt I developed my ability to communicate with others.
     </p>
 </div>
 

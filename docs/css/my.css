@@ -366,15 +366,9 @@ hr.solid {
     margin-top: 8px;
 }
 .desmos-list a {
-    color: #3abd73;
+    color: #ccffe2;
     font-weight: 500;
     text-decoration: underline;
-    transition: color 0.2s;
-}
-    
-.desmos-list a:hover {
-    color: #38a169;
-    text-decoration: none;
 }
 
 .desmos-list a:visited {
