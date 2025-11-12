@@ -6,7 +6,7 @@ permalink: /projects/
 <div class="proj-sidebar" id="sideBar">
 <h1>2025</h1>
 <ul>
-<li><a href="#MOD04">Modelling CANDU Reactor Parts (SolidWorks) | In Progress</a></li>
+<li><a href="#MOD04">Modelling CANDU Reactor Parts (SolidWorks)</a></li>
 <li><a href="#GRE03">Green Infrastructure Map of Toronto (QGIS)</a></li>
 <li><a href="#QUA02">Quantum Orbital Visualization (Octave)</a></li>
 <li><a href="#TYP01">Game: Type-Casting (C#)</a></li>
@@ -25,8 +25,8 @@ permalink: /projects/
 
 <div class="target-anchor" id="MOD04"></div>
 <div class="project-card">
-    <p class="project-title">Modelling CANDU Reactor Parts (SolidWorks) | In Progress</p>
-    <p class="project-date">September 2025 - Present</p>
+    <p class="project-title">Modelling CANDU Reactor Parts (SolidWorks)</p>
+    <p class="project-date">October 2025</p>
     <hr class="solid">
     <p class="project-description">
     Models of components based on CANDU-6 reactors to eventually form a full assembly of the calandria, fuel tubes passing through it, and end fittings of the fuel tubes. Driven by a curiosity about nuclear reactors, by modelling one, I hope to better appreciate all the engineering that contributes to making them function, function efficiently, and function safely.</p>
